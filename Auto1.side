@@ -1,0 +1,208 @@
+{
+  "id": "eb397b7e-f6b5-4bf3-8dbd-9b935332fd57",
+  "version": "1.1",
+  "name": "Auto1",
+  "url": "https://www.autohero.com/de/search",
+  "tests": [{
+    "id": "48de202a-dbf3-4745-bf47-4c1a11d4a9e3",
+    "name": "search",
+    "commands": [{
+      "id": "cca9ac9f-33e1-47a9-9986-1f4df117664b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.autohero.com/de/search/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8a750fe-c5e1-4ec7-8aca-323a955054ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d59ad6c7-35b4-45e9-98b5-c7183c265294",
+      "comment": "",
+      "command": "click",
+      "target": "css=.root___1ZGR8:nth-child(3) .labelText___1_7Q2",
+      "targets": [
+        ["css=.root___1ZGR8:nth-child(3) .labelText___1_7Q2", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div/div/div/div/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d0e5a90-cce4-4220-8cdc-c4f5f41aa35b",
+      "comment": "",
+      "command": "click",
+      "target": "name=yearRange.min",
+      "targets": [
+        ["name=yearRange.min", "name"],
+        ["css=select[name=\"yearRange.min\"]", "css"],
+        ["css=.root___1ZGR8:nth-child(3) .form-control > .form-control", "css:finder"],
+        ["xpath=//select[@name='yearRange.min']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div/div/div/div/div[3]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34e574ca-fd13-401c-aad9-11ad4248c61d",
+      "comment": "",
+      "command": "select",
+      "target": "name=yearRange.min",
+      "targets": [],
+      "value": "label=2015"
+    }, {
+      "id": "71019ed7-f9d8-4ab0-81a2-b08e9032a52b",
+      "comment": "",
+      "command": "click",
+      "target": "name=yearRange.min",
+      "targets": [
+        ["name=yearRange.min", "name"],
+        ["css=select[name=\"yearRange.min\"]", "css"],
+        ["css=.root___1ZGR8:nth-child(3) .form-control > .form-control", "css:finder"],
+        ["xpath=//select[@name='yearRange.min']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div/div/div/div/div[3]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d99e6183-af29-4b61-bf6a-c60b2b28a201",
+      "comment": "",
+      "command": "click",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=select[name=\"sort\"]", "css"],
+        ["css=.hidden-xs > .form-control", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab53cb7e-44c3-47be-ad24-63302cca3255",
+      "comment": "",
+      "command": "click",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=select[name=\"sort\"]", "css"],
+        ["css=.hidden-xs > .form-control", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28508550-e76b-4381-8c4c-2292461669a1",
+      "comment": "",
+      "command": "select",
+      "target": "name=sort",
+      "targets": [],
+      "value": "label=Höchster Preis"
+    }, {
+      "id": "d118b7d1-7d31-4d00-b7f0-fcb773a2c4c5",
+      "comment": "",
+      "command": "click",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=select[name=\"sort\"]", "css"],
+        ["css=.hidden-xs > .form-control", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45532507-ea12-46dd-8233-7de719802d09",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.filterButton___3dGDs",
+      "targets": [
+        ["css=.filterButton___3dGDs", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"]
+      ],
+      "value": "30"
+    }, {
+      "id": "c2d55283-b1ee-451f-8aac-2f21b70692ac",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.filterButton___3dGDs",
+      "targets": [
+        ["css=.filterButton___3dGDs", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df5060c8-2f14-4f33-8e29-9f2a39349c08",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.filterButton___3dGDs",
+      "targets": [
+        ["css=.filterButton___3dGDs", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"]
+      ],
+      "value": "Erstzulassung von: 2015"
+    }, {
+      "id": "1d3b63cb-072a-44b4-84fe-221854101012",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=select[name=\"sort\"]", "css"],
+        ["css=.hidden-xs > .form-control", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": "30"
+    }, {
+      "id": "663d2633-d3cb-41fc-990d-4c1219377aab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=select[name=\"sort\"]", "css"],
+        ["css=.hidden-xs > .form-control", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7115aa42-685b-4970-8ef3-799fb11eed27",
+      "comment": "",
+      "command": "verifySelectedLabel",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=select[name=\"sort\"]", "css"],
+        ["css=.hidden-xs > .form-control", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div[4]/div/div[2]/div/div[2]/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": "Höchster Preis"
+    }]
+  }],
+  "suites": [{
+    "id": "927a339e-703c-461c-a05a-be22282e9ec6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["48de202a-dbf3-4745-bf47-4c1a11d4a9e3"]
+  }],
+  "urls": ["https://www.autohero.com/", "https://www.autohero.com/de/search"],
+  "plugins": []
+}
